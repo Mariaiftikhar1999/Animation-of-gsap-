@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        custom: ['CustomFont', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('/Neue.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body theme="black">
+    <div class="main w-full ">
+        <div data-color="black" class="home section h-[200vh] w-full relative ">
+            <div class="w-full sticky top-0 left-0">
+
+                <div class="bottomtext z-[9] absolute bottom-[7%] left-[10%] w-52">
+                 <h1> We build big ideas.
+                  Software. Apps. Tools.
+                  For real people. Real
+                  lives.</h1>
+                </div>
+              <div style="--clip:100%" class="videodiv   bg-black  z-[4] w-full h-screen absolute top-0 left-0 over-flow-hidden  ">
+                  <video class="absolute  w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                      src="https://cdn.significo.com/videos/significo-main-hero.mp4" autoplay loop muted></video>
+                     
+              </div>
+  
+              <div class=" marqueescontainer overflow-hidden w-full h-screen relative section  ">
+  
+                  <div class="marqueetex absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center ">
+                      <h1 class="text-1xl font-regular">
+                          We craft healthcare technology that is more human:
+                      </h1>
+                  </div>
+                  <div class="slidesm -translate-x-1/2 -translate-y-1/2 absolute top-[70%] left-1/2 w-[90%]  ">
+                      <div class="row lft -translate-x-1/2  w-full  gap-3 flex items-center justify-content-center">
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full"></div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full"></div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full"></div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+  
+                          </div>
+                      </div>
+                      <div class="row rgt -translate-x-1/2  w-full  gap-3 flex items-center justify-content-center">
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+  
+  
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+  
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+  
+                          </div>
+                      </div>
+                      <div class="row lft -translate-x-2/3  w-full  gap-3 flex items-center justify-content-center">
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+  
+                          </div>
+                      </div>
+                      <div class="row rgt -translate-x-2/3    w-full  gap-3 flex items-center justify-content-center">
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">useful</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">intuitive</h1>
+                              <div class="imgdiv w-[3.5rem] h-[3.5rem] bg-green-500 rounded-full">
+                                  <img class="w-full h-full" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp" alt="">
+                              </div>
+                          </div>
+                          <div class="element gap-5 flex items-center">
+                              <h1 class="font-custom text-8xl font-semibold  ">empathetic</h1>
+  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+
+        </div>
+        <!-- craft  -->
+        <div data-color="cyan" class="craft section w-full flex gap-6 items-start py-9 justify-between relative">
+            <div class="ltext sticky top-0 left-0  w-[40%]">
+                <p class="text-1xl font-light leading-10">Significo is a custom health software developer founded on the belief
+                    that technology can transform healthcare to put people first. We put
+                    humanity back at the center of healthcare with technology that
+                    simplifies complexity, accelerates capacity, and improves outcomes.
+                    
+                    </p>
+                    <h1 class="text-[5rem] mt-10 font-custom font-normal mb-10 leading-[6.5rem]">Human-Centric Health Software
+                    </h1>
+                    <div class="masker w-fit px-9 py-2 overflow-hidden border-[--dcyan] border-[1px]">
+                        <span class="inline-block">Our Solutions</span>
+
+                    </div>
+
+            </div>
+            <div class="cards w-1/2 ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias soluta quibusdam unde distinctio obcaecati dolores. Consequuntur incidunt laborum totam recusandae enim officiis hic fugiat mollitia placeat accusamus doloremque aut dolorem, magnam harum est soluta? Accusantium consequatur veritatis iste doloremque iure, fuga ad ullam excepturi explicabo earum ex corporis voluptatum distinctio obcaecati porro nam sint exercitationem cum eum corrupti. Laudantium provident quam unde consequatur ullam aperiam officiis reiciendis nemo ad quisquam nobis possimus repudiandae expedita maxime sint dicta reprehenderit officia saepe, nam dolores. At ratione aspernatur vel reiciendis exercitationem provident natus sed libero inventore aut laborum hic ipsum nihil, aliquid rem molestias, iusto quo nobis officiis? Quisquam aspernatur dignissimos nam distinctio incidunt, ipsum tenetur sequi nesciunt ad, ratione reprehenderit cupiditate ullam necessitatibus sapiente iure inventore facilis similique consequatur enim veritatis asperiores. Neque aut similique vel deserunt praesentium quaerat ducimus animi nostrum a exercitationem, quibusdam rerum incidunt, eos assumenda necessitatibus cum fuga officia, ipsa mollitia asperiores. Maxime a iste repellat quam sapiente est iusto modi doloribus libero, voluptatum aliquam minima rem ducimus corporis ab incidunt, recusandae asperiores expedita repellendus vitae. Nisi eius, dolore, suscipit necessitatibus hic eum maxime assumenda perspiciatis modi et voluptate tempore consequatur, ad ipsum saepe asperiores? Vero, magnam non Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempora harum totam! Officia exercitationem, voluptatem, aspernatur laboriosam pariatur deleniti at iusto laudantium iure corporis nihil ab! Aliquam sunt id minus tempore animi necessitatibus reiciendis nostrum aut architecto, maxime similique dolorum quam corporis eveniet harum atque dolor facilis, porro dolores est quasi! Animi veniam ab incidunt magni adipisci natus porro, molestiae consequuntur sint vero dignissimos architecto officia numquam hic, voluptatum minima facilis illo quam quidem, voluptatibus nisi! Unde impedit eum, laborum veniam quidem vitae repellat quasi expedita in id vel consectetur laudantium quae adipisci animi, ipsa atque quis deserunt! Labore, porro. Voluptatibus provident possimus aliquam quaerat error esse earum, dolore fuga ipsa commodi expedita laudantium molestias quod temporibus facere ipsum fugiat dolores quasi corrupti ad? Voluptate recusandae aliquam illo corrupti libero quisquam soluta eaque porro labore cupiditate earum ea officia minima dignissimos itaque doloremque delectus saepe nostrum, iusto deserunt. Magnam temporibus reprehenderit unde sint eveniet cupiditate dolorem repudiandae adipisci, nisi laboriosam placeat deserunt, quas praesentium optio quibusdam quia ipsum provident debitis doloribus id est saepe esse iure. Consequatur temporibus non commodi minima velit officia sequi animi laudantium eius aperiam assumenda quasi quam reprehenderit quis a quaerat, culpa corporis est. Odit sit expedita, perspiciatis iure earum exercitationem culpa magni vel delectus. Delectus quisquam pariatur ex consectetur porro quis saepe earum labore perferendis! Autem, beatae illo suscipit voluptatum, voluptatibus, neque tempora libero sequi qui eum necessitatibus. Rem inventore incidunt odio et veritatis? Ipsum iure amet dolorem? Ea quasi officiis sed adipisci accusantium totam officia rem, fuga iste blanditiis. Porro, assumenda expedita perferendis earum officiis nulla distinctio ut maiores, libero, inventore exercitationem error veniam veritatis dignissimos. Aut tenetur repudiandae dolorum reprehenderit est! Consequuntur deserunt impedit, sequi suscipit quo eligendi, itaque molestias veritatis, officia ea asperiores laborum repellat natus quidem. Porro ut quod praesentium sequi aliquam? Consectetur, magni porro! Quam ea sit debitis tempora numquam, laudantium ducimus quia dicta ipsam unde earum? Placeat dolore excepturi assumenda magnam odit esse rem exercitationem numquam consequuntur eaque sequi magni sapiente quia alias laudantium earum dolorem quod deserunt inventore, quae quas dignissimos facilis officiis ipsa. Error blanditiis magni et enim omnis voluptatum laborum! Ipsam placeat voluptatum magnam nisi non quae quaerat consequatur sint possimus, praesentium odit tenetur dolore maxime rem eligendi distinctio voluptatibus illo, nobis tempora aliquam fuga ex in mollitia qui. Consequatur, veritatis! Quae dolorum cumque accusantium adipisci quasi culpa aliquam nesciunt sunt esse animi unde exercitationem architecto, vitae alias rerum. Pariatur possimus repudiandae ipsum commodi impedit reiciendis ad voluptas soluta earum, vero iste, esse cumque vitae veritatis doloribus deleniti labore cum. Odio quos quam deserunt corrupti dolor, labore modi sed commodi unde blanditiis itaque magnam provident assumenda asperiores sapiente error fugit pariatur temporibus ea magni placeat incidunt non eum! Quisquam, saepe officiis voluptatibus est facilis beatae excepturi voluptates commodi nam eaque repudiandae eum itaque ad repellendus. Perspiciatis temporibus officiis excepturi voluptatum alias consectetur nam iste rem iure cum voluptas ipsa dignissimos, maxime non hic distinctio velit quaerat delectus necessitatibus repellat quis optio laboriosam error. Aspernatur explicabo, commodi at, recusandae necessitatibus deleniti, incidunt repudiandae laborum alias veniam est? Rerum enim dolorem cum aut voluptate! Veritatis dignissimos inventore ex ipsum ea temporibus recusandae, consectetur illum deserunt error, iusto eligendi labore adipisci quasi sunt rerum tenetur pariatur? Modi, labore consequatur, architecto odio voluptatum repudiandae laborum dolor quis, velit corporis sequi! Facilis quasi sapiente rerum debitis voluptatum voluptas molestias odit id nobis vero officiis quibusdam repellendus neque, minus vel. Sit alias beatae, voluptatum debitis corrupti harum eaque enim suscipit, velit dolores consequatur deleniti ipsam magnam blanditiis impedit accusantium nobis aliquid nesciunt iste. Veritatis dicta consequatur labore vel repellendus officiis sint blanditiis accusantium totam rerum, quod deleniti provident dolores distinctio libero suscipit eius saepe? Laudantium accusantium alias atque qui officiis deleniti quam, eos voluptas adipisci fuga, at dignissimos eligendi officia placeat. Velit explicabo molestias unde obcaecati id a sit quisquam minima voluptatem suscipit inventore dolorem deserunt quidem, reprehenderit laudantium voluptates impedit nesciunt blanditiis. Corporis ad quo dolor. Nobis quod dolorum sed unde officia. Impedit sunt omnis praesentium sequi minus quidem, repudiandae iusto eaque quisquam minima, iste quis sint quae commodi dignissimos officia blanditiis? Labore a rerum deserunt molestiae sequi placeat fugiat hic blanditiis. Porro voluptates architecto maiores veniam qui aut vel beatae?
+            </div>
+
+        </div>
+        <!-- sliders  -->
+        <div data-color="salmon" class="real section w-full ">
+            <div class="cont h-[400vh]  relative ">
+                <div class="slides w-full    flex gap-10 h-[100vh] sticky top-0 left-0" >
+                    <div class="slide w-full h-screen  flex  justify-center items-center flex-shrink-0"> 
+                        <div class="image w-[15rem] z-15 h-[15rem] rounded-full bg-red-600 absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 overflow-hidden">
+                            <img class="w-full h-full object-cover " src="https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                        </div>
+                        <div class="text font-custom">
+                            <h1 class="text-8xl ">Real Talk,</h1>
+                            <h1 class="text-8xl ">Real Impact</h1>
+                        </div>
+                      
+                    </div>
+                      <div class="slide w-full h-screen  flex justify-center items-center flex-shrink-0 relative">
+                        <div class="img1  absolute top-1/2 left-[15%] translate-y-1/3 z-10 w-[10rem] h-[10rem] rounded-full  overflow-hidden">
+                            <img class="w-full h-full object-cover " src="https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                        </div>
+
+                        <div class="img1  absolute top-0 left-1/2 -translate-y-1/2 z-10 w-[10rem] h-[10rem] rounded-full  overflow-hidden">
+                            <img class="w-full h-full object-cover " src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                        </div>
+                        <div class="img1  absolute top-1/2 left-1/2 translate-y-1/2 z-10 w-[12rem] h-[12rem] rounded-full  overflow-hidden">
+                            <img class="w-full h-full object-cover " src="https://plus.unsplash.com/premium_photo-1673735186578-1a6cd08b8100?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                        </div>
+                        <div class="image w-[15rem] z-15 h-[15rem] rounded-full bg-red-600 absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 overflow-hidden">
+                            <img class="w-full h-full object-cover " src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+                        </div>
+                        <!-- text  -->
+                        <div class="div2 w-[50%] text-center font-custom relative">
+                            <h3 class="absolute w-1/3 font-semibold left-0 text-left top-0 -translate-y-1/2 -translate-x-2/3 leading-7 tracking-tight">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress</h3>
+                            <h1 class="font-semibold text-[11rem] leading-none text-white ">20.4M</h1>
+                            <h3 class="text-3xl text-black leading-15 tracking-tight">Real people — real lives — we have built products and solutions for.</h3>
+                        </div>
+                      </div>
+                      <!-- slide 3  -->
+                    <div class="slide w-full  flex justify-center items-center h-screen  flex-shrink-0  relative">
+
+                    
+                        <div class="div2 w-[50%] text-center f font-custom relative">
+                            <h3 class="absolute w-1/3 font-semibold left-0 text-left top-0 -translate-y-1/2 -translate-x-2/3 leading-7 tracking-tight">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress</h3>
+                            <h1 class="font-semibold text-[11rem] leading-none text-white ">14%</h1>
+                            <h3 class="text-3xl text-black leading-15 tracking-tight">Expert Women in Tech.</h3>
+                        </div>
+
+
+                    </div>
+
+                  
+
+
+                   
+
+                </div>
+            </div>
+
+        </div>
+          <!-- our team section  -->
+
+          <div data-color="black" class="team section w-full font-custom py-20">
+
+            <h1 class="text-center font-semibold text-7xl tracking-tight mb-20 ">Our Team</h1>
+
+            <div class="list w-full px-7  ">
+                <div class="lislm py-[3rem]  border-b-2 border-black relative  ">
+                    <div class="flex justify-between items-center w-full relative z-[3]">
+                        <div class=" w-full flex gap-10 items-center ">
+                            <h3 class="text-gray-300 text-5xl">01</h3>
+                            <h1 class="text-5xl">Dr. Rick McCartney</h1>
+                        </div>
+                        <h3 class="text-3xl font-semibold">CEO</h3>
+
+                    </div>
+                    <div class="picture w-[10rem] h-[10rem] overflow-hidden z-9 opacity-0 rounded-full bg-red-700 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+
+                    </div>
+                    <div class="bluelayer w-full absolute bottom-0 left-0 bg-blue-700 h-[0%] z-2">
+                        
+                    </div>
+                   
+
+                </div>
+                <div class="lislm py-[3rem] flex justify-between items-center border-b-2 border-black ">
+                    <div class=" w-full flex gap-10 items-center">
+                        <h3 class="text-gray-300 text-5xl">02</h3>
+                        <h1 class="text-5xl">Chris Choha</h1>
+                    </div>
+                    <h3 class="text-3xl font-semibold">COO</h3>
+
+                </div>
+                <div class="lislm py-[3rem] flex justify-between items-center border-b-2 border-black ">
+                    <div class=" w-full flex gap-10 items-center">
+                        <h3 class="text-gray-300 text-5xl">03</h3>
+                        <h1 class="text-5xl">Caroline Nieto</h1>
+                    </div>
+                    <h3 class="text-3xl font-semibold">CPO</h3>
+
+                </div>
+                <div class="lislm py-[3rem] flex justify-between items-center border-b-2 border-black ">
+                    <div class=" w-full flex gap-10 items-center">
+                        <h3 class="text-gray-300 text-5xl">04</h3>
+                        <h1 class="text-5xl">Victor Albertos</h1>
+                    </div>
+                    <h3 class="text-3xl font-semibold">CTO</h3>
+
+                </div>
+                <div class="lislm py-[3rem] flex justify-between items-center  ">
+                    <div class=" w-full flex gap-10 items-center">
+                        <h3 class="text-gray-300 text-5xl">05</h3>
+                        <h1 class="text-5xl">Dr. Jana Schimdit</h1>
+                    </div>
+                    <h3 class="text-3xl font-semibold">CIO</h3>
+
+                </div>
+                
+
+
+            </div>
+
+
+
+          </div>
+
+          <!-- para section  -->
+
+          <div data-color="black" class="para w-[60%] flex  section flex-col items-center m-auto ">
+            <h3 class=" paratext  text-center my-4 font-semibold"><span class="text-3xl pr-2 text-orange-500 font-custom">"</span>Working with Significo and their recommendation service has been a game-changer for our occupational prevention efforts. Our customers are extremely satisfied with the tool's impressive technical capabilities and data-driven approach. But what truly sets it apart is the intuitive and modern user experience it offers, making it a breeze for our clients to navigate. By leveraging this service, our customers have successfully tackled presenteeism and absenteeism.<span class="text-3xl text-orange-500 font-custom ps-2 pt-2" >"</span></h3>
+            <div class="picture w-[6rem] h-[6rem] my-5 overflow-hidden z-5  rounded-full bg-black ">
+                <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483253_EmekAltun.jpg" alt="">
+            </div>
+            <h3 class="text-2xl mb-2">Emek Altun</h3>
+            <h4 class="text-3xl text-gray-500 my-3">CEO @ Vitaservices</h4>
+          
+          </div>
+
+          <!-- section capsule  -->
+
+          <div data-color="black" class="capsule section w-full flex items-start justify-between gap-5 h-screen mt-60 ">
+              <div class="left  w-1/3 flex flex-col justify-end py-32 items-center h-full  ">
+                <div class="masker  w-fit px-9 py-2 overflow-hidden bg-[#f5f19c] border-[--dcyan] border-[1px]">
+                    <span class="inline-block font-semibold">Our Solutions</span>
+
+                </div>
+              </div>
+              <div class="right flex gap-[90px] w-2/3  self-center ">
+                <div class="capsules border-1  -rotate-12 rounded-full flex flex-col items-center border-[1px] border-white px-7 py-9 ">
+                    <div class="w-[12rem] h-[12rem] rounded-full bg-red-500 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/66327831c53bb8c459a9b605_Untitled%20design-7.avif" alt="">
+                    </div>
+                    <h3 class="text-1xl font-semibold text-center py-10 font-custom ">Digital Therapeutics <br> Decoded:  A Guide to <br> Understanding DTx and <br> Why They're Worth Your <br> Attention</h3>
+                    <button class="border-none w-fit bg-purple-400 rounded-full px-1 py-2">thought Leadership </button>
+
+                </div>
+                <div class="capsules translate-y-60   -rotate-12 rounded-full flex flex-col items-center border-[1px] border-white px-7 py-10 ">
+                    <button class="border-none w-fit bg-purple-400 rounded-full px-1 py-2">thought Leadership </button>
+                    <h3 class="text-1xl font-semibold text-center py-10 font-custom ">Digital Therapeutics <br> Decoded:  A Guide to <br> Understanding DTx and <br> Why They're Worth Your <br> Attention</h3>
+                    <div class="w-[12rem] h-[12rem] rounded-full bg-red-500 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.avif" alt="">
+                    </div>
+
+                </div>
+               
+              </div>
+
+          </div>
+
+
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
